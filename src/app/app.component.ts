@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FirebaseCrashlytics } from '@capacitor-firebase/crashlytics';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor() {}
+  constructor() {
+    setTimeout(() => {
+      this.isCrashlyticsEnabled();
+    }, 10000);
+  }
+
+  async isCrashlyticsEnabled() {
+    const result = await FirebaseCrashlytics.isEnabled();
+    return result.enabled;
+  };
 }

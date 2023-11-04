@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "392211230372",
+    "project_id": "sdka-fa928",
+    "storage_bucket": "sdka-fa928.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392211230372:android:12a4f74e17bd8a1ec00031",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALLuivg4XseYDIfQfPh3OHyeachtRHmvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
